@@ -27,6 +27,9 @@ nav ul li a{
     text-decoration: none;
     color: white;
 }
+header img{
+    width: 170px;
+}
 .uno{
     background-color: rgba(62, 73, 81);
     border-radius: 50px;
@@ -95,10 +98,7 @@ nav ul li a{
     color: white;
     margin-left: 20px;
     text-decoration: none;
-    background-image: linear-gradient(currentColor, currentColor);
-    background-size: 100% 2px;
-    background-repeat: no-repeat;
-    background-position: 0 100%; 
+    border-bottom: solid 1px white;
     font-weight: bold;
 }
 .enlace-uno img{
@@ -110,5 +110,206 @@ nav ul li a{
     justify-content: space-around;
     padding: 20px 0 20px 0;
     border-bottom: 2px solid rgba(216, 216, 216);
-
+}
+.contenedor-tres{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 100px 50px;
+    font-family: "Nunito Sans", sans-serif;
+}
+.contenedor-tres-uno img{
+    width: 150px;
+}
+.contenedor-tres-uno h2{
+    color: rgb(78, 83, 87);
+    font-weight: 500;
+    margin-top: 25px;
+    font-size: 28px;
+}
+.contenedor-tres-uno p{
+    color: rgba(129, 133, 136);
+    width: 360px;
+    margin-top: 10px;
+}
+.contenedor-tres-uno button{
+    padding: 15px 40px;
+    background-color: rgba(65, 155, 212);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    border-top: 2px solid rgba(152, 200, 229);
+    border-bottom: 2px solid rgba(41, 100, 148);
+    border-left: 0;
+    border-right: 0;
+    font-weight: bold;
+    margin-top: 30px;
+}
+.imagenes{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 100px;
+}
+.imagenes img{
+    width: 270px;
+    box-shadow: 0 3px 3px rgba(0,0,0,0.3);
+}
+.contenedor-cuatro h1{
+    font-family: "Nunito Sans", sans-serif;
+    color: rgb(78, 83, 87);
+    font-weight: 500;
+    padding: 20px 150px;
+    font-size: 28px;
+}
+.contenedor-cinco{
+    display: flex;
+    flex-direction: row;
+    font-family: "Nunito Sans", sans-serif;
+}
+.contenedor-cinco-uno{
+    padding: 150px 150px;
+}
+.contenedor-pequeno-uno{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+.contenedor-pequeno-dos{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+.contenedor-pequeno-tres{
+    display: flex;
+    flex-direction: row;
+}
+.contenedor-pequeno-cuatro{
+    display: flex;
+    flex-direction: row;
+}
+.titulo-uno{
+    font-family: "Nunito Sans", sans-serif;
+    color: rgb(78, 83, 87);
+    font-weight: 500;
+    font-size: 28px;
+}
+.titulo-uno img{
+    margin-right: 10px;
+}
+.texto-dos p{
+    width: 370px;
+    color: rgba(129, 133, 136);
+    font-size: 16px;
+    line-height: 27px;
+}
+.texto-dos{
+    margin-left: 40px;
+}
+.texto-dos a{
+    margin-left: 10px;
+    text-decoration: none;
+    color: rgba(0, 172, 237);
+}
+.texto-dos h3{
+    font-family: "Nunito Sans", sans-serif;
+    color: rgb(78, 83, 87);
+    font-weight: 500;
+}
+.imagen-dos img{
+    width: 180px;
+    box-shadow: 0 3px 3px rgba(0,0,0,0.3);
+    margin-bottom: 30px;
+}
+.texto-dos .fecha{
+    color: rgb(181, 194, 203);
+    font-size: 13px;
+}
+.texto-azul{
+    text-decoration: none;
+    color: rgba(0, 172, 237);
+    font-size: 16px;
+}
+.contenedor-cinco-dos{
+    padding: 150px 0;
+}
+.contenedor-pequeno-dos p{
+    width: 470px;
+    color: rgba(129, 133, 136);
+    font-size: 16px;
+    line-height: 27px;
+}
+.contenedor-pequeno-dos .arroba{
+    color: rgb(70, 74, 77);
+    text-decoration: none;
+    font-size: 18px;
+}
+.contenedor-pequeno-dos a{
+    text-decoration: none;
+    color: rgba(0, 172, 237);
+}
+.contenedor-cinco-dos .fecha{
+    color: rgb(181, 194, 203);
+    font-size: 13px;
+    margin-top: 5px;
+    margin-bottom: 40px;
+}
+.contenedor-pequeno-tres p{
+    width: 470px;
+    color: rgba(129, 133, 136);
+    font-size: 16px;
+    line-height: 27px;
+}
+.contenedor-pequeno-tres .arroba{
+    color: rgb(70, 74, 77);
+    text-decoration: none;
+    font-size: 18px;
+}
+.contenedor-pequeno-tres a{
+    text-decoration: none;
+    color: rgba(0, 172, 237);
+}
+.contenedor-cinco-tres .fecha{
+    color: rgb(181, 194, 203);
+    font-size: 13px;
+    margin-top: 5px;
+    margin-bottom: 40px;
+}
+.contenedor-pequeno-cuatro p{
+    width: 470px;
+    color: rgba(129, 133, 136);
+    font-size: 16px;
+    line-height: 27px;
+}
+.contenedor-pequeno-cuatro .arroba{
+    color: rgb(70, 74, 77);
+    text-decoration: none;
+    font-size: 18px;
+}
+.contenedor-pequeno-cuatro a{
+    text-decoration: none;
+    color: rgba(0, 172, 237);
+}
+.contenedor-cinco-cuatro .fecha{
+    color: rgb(181, 194, 203);
+    font-size: 13px;
+    margin-top: 5px;
+    margin-bottom: 40px;
+}
+hr{
+    border:none;
+    background-color: rgb(202, 212, 219);
+    margin: 0 140px 0 140px;
+    height: 1px;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    font-family: "Nunito Sans", sans-serif;
+    color: rgba(129, 133, 136);
+    padding: 20px 140px 60px 140px;
+    justify-content: space-between;
+}
+.iconos img{
+    width: 35px;
+    margin-left: 10px;
 }

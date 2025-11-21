@@ -512,47 +512,63 @@ footer{
     nav ul{
         font-size: 18px;
     }
+    nav{
+        margin-left: 10px;
+    }
     nav ul li{
         margin-right: 20px;
         gap: 5px;
     }
-    header{
-        padding: 20px 5px;
-    }
-    .imagen-uno img{
-        display: none;
-    }
     .texto-uno{
-        padding: 50px 0 0 60px;
-        font-family: "Roboto", sans-serif;
+        padding: 50px 0 0 30px;
     }
-    .contenedor-dos img{
-        width: 50px;
+    .texto-uno h1{
+        width: 270px;
+    }
+    .texto-uno p{
+        width: 300px;
     }
     .enlaces{
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 10px;
+    }
+    .enlace-uno{
+        margin-left: 10px;
         margin-top: 20px;
     }
     .boton-azul{
         padding: 10px 20px;
+        margin-bottom: 20px;
+    }
+    .contenedor-tres{
+        padding: 50px 0;
     }
     .contenedor-tres-uno{
         margin-top: 30px;
         margin-bottom: 50px;
     }
+    .contenedor-tres-uno p{
+        width: 300px;
+    }
+    .contenedor-dos img{
+        width: 50px;
+        height: 30px;
+    }
+    .imagenes{
+        padding: 0 0;
+    }
     .imagenes img{
         margin: 10px 0 40px 0;
     }
-    .contenedor-pequeno-uno{
-        flex-direction: column;
-    }
     .contenedor-cinco-dos{
-        padding: 0 0 100px 110px;
+        padding: 0 0 100px 45px;
     }
     .contenedor-cinco-uno{
-        padding: 50px 0 80px 110px;
+        padding: 50px 0 80px 45px;
     }
     .contenedor-cuatro h1{
-        padding: 20px 110px;
+        padding: 20px 40px;
     }
     hr{
         margin: 0 30px 0 30px;
@@ -567,13 +583,13 @@ footer{
         width: 300px;
     }
     .contenedor-pequeno-dos p{
-        width: 300px;
+        width: 250px;
     }
     .contenedor-pequeno-tres p{
-        width: 300px;
+        width: 250px;
     }
     .contenedor-pequeno-cuatro p{
-        width: 300px;
+        width: 250px;
     }
 }
 
